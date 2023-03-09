@@ -57,7 +57,7 @@ while game_over == False:
         step = int(input("1-й игрок, ваш ход:(введите число от 1 до 9)"))
     else:
         symbol = "O"
-        step = int(input("1-й игрок, ваш ход:(введите число от 1 до 9)"))
+        step = int(input("2-й игрок, ваш ход:(введите число от 1 до 9)"))
 
     step_board(step, symbol)  # делаем ход в указанную ячейку
     win = get_result()  # определим победителя
